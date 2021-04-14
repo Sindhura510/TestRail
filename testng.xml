@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- Sample Master Suite File containing all relevant Suite Files -->
+<suite name="CompanySetup">
+
+     <listeners>
+		<listener class-name="com.qa.DDI.Project1.JiraUtils.TestJiraListener"/>
+	</listeners>
+	
+	
+	
+	<suite-files>
+		<suite-file path="./src/main/resources/suitefile/contactus.xml"/>
+	</suite-files>
+
+</suite>
